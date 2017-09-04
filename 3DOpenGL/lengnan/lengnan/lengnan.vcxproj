@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54F0B5FF-5F08-42D5-98BE-9C9C7A641595}</ProjectGuid>
+    <RootNamespace>lengnan</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\稳定版\lengnan\lengnan\opencv;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;cv210d.lib;cxcore210d.lib;highgui210d.lib;cv210.lib;cxcore210.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>
+      </MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>F:\工程--三维大模型配置文件\稳定版\lengnan\lengnan\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <PreventDllBinding>false</PreventDllBinding>
+      <AdditionalDependencies>cv210.lib;cxcore210.lib;highgui210.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddIso.cpp" />
+    <ClCompile Include="ADOConn.cpp" />
+    <ClCompile Include="AVIPrama.cpp" />
+    <ClCompile Include="Cnewtest.cpp" />
+    <ClCompile Include="Com.cpp" />
+    <ClCompile Include="Cselectnum.cpp" />
+    <ClCompile Include="Cxlayout.cpp" />
+    <ClCompile Include="Cylayout.cpp" />
+    <ClCompile Include="Czlayout.cpp" />
+    <ClCompile Include="Histoty.cpp" />
+    <ClCompile Include="Lena.cpp" />
+    <ClCompile Include="lengnan.cpp" />
+    <ClCompile Include="lengnanDoc.cpp" />
+    <ClCompile Include="lengnanView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="meheader.cpp" />
+    <ClCompile Include="MOdelSet.cpp" />
+    <ClCompile Include="ModelSheet.cpp" />
+    <ClCompile Include="MyToolBar.cpp" />
+    <ClCompile Include="PointNow.cpp" />
+    <ClCompile Include="Sensornum.cpp" />
+    <ClCompile Include="SetPoint.cpp" />
+    <ClCompile Include="SetServer.cpp" />
+    <ClCompile Include="SetStaff.cpp" />
+    <ClCompile Include="SetWellDlg.cpp" />
+    <ClCompile Include="ShowPoint.cpp" />
+    <ClCompile Include="SplashWnd.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextToAccess.cpp" />
+    <ClCompile Include="GLFont.cpp" />
+    <ClCompile Include="IA.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddIso.h" />
+    <ClInclude Include="ADOConn.h" />
+    <ClInclude Include="AVIPrama.h" />
+    <ClInclude Include="Cnewtest.h" />
+    <ClInclude Include="Com.h" />
+    <ClInclude Include="Cselectnum.h" />
+    <ClInclude Include="cv.h" />
+    <ClInclude Include="cxcore.h" />
+    <ClInclude Include="Cxlayout.h" />
+    <ClInclude Include="Cylayout.h" />
+    <ClInclude Include="Czlayout.h" />
+    <ClInclude Include="highgui.h" />
+    <ClInclude Include="Histoty.h" />
+    <ClInclude Include="Lena.h" />
+    <ClInclude Include="lengnan.h" />
+    <ClInclude Include="lengnanDoc.h" />
+    <ClInclude Include="lengnanView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MOdelSet.h" />
+    <ClInclude Include="ModelSheet.h" />
+    <ClInclude Include="myheader.h" />
+    <ClInclude Include="MyToolBar.h" />
+    <ClInclude Include="PointNow.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sensornum.h" />
+    <ClInclude Include="SetPoint.h" />
+    <ClInclude Include="SetServer.h" />
+    <ClInclude Include="SetStaff.h" />
+    <ClInclude Include="SetWellDlg.h" />
+    <ClInclude Include="ShowPoint.h" />
+    <ClInclude Include="SplashWnd.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextToAccess.h" />
+    <ClInclude Include="GLFont.h" />
+    <ClInclude Include="IA.h" />
+    <ClInclude Include="code_change.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\0.ico" />
+    <None Include="res\0.png" />
+    <None Include="res\1.ico" />
+    <None Include="res\1.png" />
+    <None Include="res\10.ico" />
+    <None Include="res\10.png" />
+    <None Include="res\11.ico" />
+    <None Include="res\11.png" />
+    <None Include="res\12.ico" />
+    <None Include="res\12.png" />
+    <None Include="res\13.ico" />
+    <None Include="res\13.png" />
+    <None Include="res\14.ico" />
+    <None Include="res\14.png" />
+    <None Include="res\15.ico" />
+    <None Include="res\16.ico" />
+    <None Include="res\17.ico" />
+    <None Include="res\18.ico" />
+    <None Include="res\19.ico" />
+    <None Include="res\2.ico" />
+    <None Include="res\2.png" />
+    <None Include="res\20.ico" />
+    <None Include="res\21.ico" />
+    <None Include="res\22.ico" />
+    <None Include="res\23.ico" />
+    <None Include="res\24.ico" />
+    <None Include="res\25.ico" />
+    <None Include="res\3.ico" />
+    <None Include="res\3.png" />
+    <None Include="res\4.ico" />
+    <None Include="res\4.png" />
+    <None Include="res\5.ico" />
+    <None Include="res\5.png" />
+    <None Include="res\6.ico" />
+    <None Include="res\6.png" />
+    <None Include="res\7.ico" />
+    <None Include="res\7.png" />
+    <None Include="res\8.ico" />
+    <None Include="res\8.png" />
+    <None Include="res\9.ico" />
+    <None Include="res\9.png" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\Blue.ico" />
+    <None Include="res\BluRay.ico" />
+    <None Include="res\Brown.ico" />
+    <None Include="C:\Documents and Settings\Administrator\桌面\ca6a5b2f4b2bffad5406b37df7874f10.bmp" />
+    <None Include="..\ca6a5b2f4b2bffad5406b37df7874f10.bmp" />
+    <None Include="res\DivX.ico" />
+    <None Include="res\download.ico" />
+    <None Include="res\DVD.ico" />
+    <None Include="res\Flash.ico" />
+    <None Include="res\Green.ico" />
+    <None Include="res\icon.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon37.ico" />
+    <None Include="res\iTunes.ico" />
+    <None Include="res\lengnan.ico" />
+    <None Include="res\lengnan.rc2" />
+    <None Include="res\lengnanDoc.ico" />
+    <None Include="res\MediaMonkey.ico" />
+    <None Include="res\Miro.ico" />
+    <None Include="res\Player.ico" />
+    <None Include="res\QuickTime.ico" />
+    <None Include="res\Red.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\VLC.ico" />
+    <None Include="res\WinAmp.ico" />
+    <None Include="res\WMP.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lengnan.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="lengnan.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

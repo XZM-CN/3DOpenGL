@@ -1,19 +1,50 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+#
+# exclude all dot files except .gitignore
+# 排除所有.文件 .gitignore除外
+# .gitignore文件不排除
+# 
+###############################################################################
+.*
+!.gitignore
+!.gitattributes
 
-# Other files and folders
-.settings/
+# 
+# 生成文件
+# 
+###############################################################################
+*.opensdf
+*.unsuccessfulbuild
+*.cache
+*.tli
+*.inf
+*.chw
+*.cd
+Win32
+lpk.dll
+ipch
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# MySqlDbEngine依赖的文件
+!MySqlDbEngine/MySql/lib/mysqlclient.lib
+!MySqlDbEngine/MySql/lib/libmysql.dll
+!MySqlDbEngine/MySql/lib/mysqlpp_excommon.lib
+!MySqlDbEngine/MySql/lib/mysqlpp.lib
+!MySqlDbEngine/MySql/lib/mysqlpp.dll
+!MySqlDbEngine/MySql/lib/libmysql.lib
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# MsXmlEngine依赖的文件
+!MsXmlEngine/msxml/msxml4.dll
+!MsXmlEngine/msxml/msxml4.inf
+!MsXmlEngine/msxml/msxml4a.dll
+!MsXmlEngine/msxml/msxml4r.dll
+!MsXmlEngine/msxml/msxml6.dll
+!MsXmlEngine/msxml/msxml6r.dll
+
+
+# 
+# VS工程文件
+# 
+###############################################################################
+*.aps
+*.sdf
+*.user
+ipch

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="OpenGl">
+      <UniqueIdentifier>{a872de4e-f3da-4d2f-9f9c-771479675569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{bb55a1e2-9dc9-4bec-bc4e-f4714ac2d715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{ead2ac35-d78e-48f0-8080-a1d7f8a89dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="编码转换">
+      <UniqueIdentifier>{012341ac-0824-481a-b024-234d424bfefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控件美化">
+      <UniqueIdentifier>{995e0625-ed50-4272-bf47-a3b883d1f479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADOConn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lena.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lengnan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lengnanDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lengnanView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyToolBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWellDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFont.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="IA.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AddIso.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointNow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextToAccess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetStaff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MOdelSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensornum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="meheader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cselectnum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cxlayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Czlayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AVIPrama.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cnewtest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Histoty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Com.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADOConn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lena.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lengnan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lengnanDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lengnanView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyToolBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWellDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFont.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="IA.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="code_change.h">
+      <Filter>编码转换</Filter>
+    </ClInclude>
+    <ClInclude Include="AddIso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointNow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextToAccess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetStaff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MOdelSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensornum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myheader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cselectnum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cxlayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Czlayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="highgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cxcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AVIPrama.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cnewtest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Histoty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Com.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\0.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\0.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\10.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\11.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\11.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\12.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\12.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\13.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\13.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\14.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\14.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\15.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\16.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\17.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\18.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\19.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\20.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\21.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\22.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\23.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\24.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\25.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\5.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\5.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\6.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\6.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\7.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\7.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\8.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\8.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\9.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\9.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Blue.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BluRay.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Brown.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\Administrator\桌面\ca6a5b2f4b2bffad5406b37df7874f10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ca6a5b2f4b2bffad5406b37df7874f10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DivX.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\download.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DVD.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Flash.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Green.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon37.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\iTunes.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\lengnan.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\lengnan.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\lengnanDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MediaMonkey.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Miro.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Player.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\QuickTime.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Red.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VLC.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WinAmp.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WMP.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lengnan.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
